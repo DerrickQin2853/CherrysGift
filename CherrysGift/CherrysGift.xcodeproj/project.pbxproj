@@ -7,17 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		844F0A4A1DC8C90D005C0867 /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 844F0A461DC8C90D005C0867 /* back@2x.png */; };
+		844F0A4B1DC8C90D005C0867 /* back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 844F0A471DC8C90D005C0867 /* back@3x.png */; };
+		844F0A4C1DC8C90D005C0867 /* cameraroll-picker-grip@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 844F0A481DC8C90D005C0867 /* cameraroll-picker-grip@2x.png */; };
+		844F0A4D1DC8C90D005C0867 /* cameraroll-picker-grip@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 844F0A491DC8C90D005C0867 /* cameraroll-picker-grip@3x.png */; };
+		844F0A5A1DC8C923005C0867 /* DQImageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 844F0A4F1DC8C923005C0867 /* DQImageScrollView.m */; };
+		844F0A5B1DC8C923005C0867 /* DQPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 844F0A511DC8C923005C0867 /* DQPhoto.m */; };
+		844F0A5C1DC8C923005C0867 /* DQPhotoAlbumList.m in Sources */ = {isa = PBXBuildFile; fileRef = 844F0A531DC8C923005C0867 /* DQPhotoAlbumList.m */; };
+		844F0A5D1DC8C923005C0867 /* DQPhotoCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 844F0A551DC8C923005C0867 /* DQPhotoCollectionCell.m */; };
+		844F0A5E1DC8C923005C0867 /* DQPhotoCollectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844F0A571DC8C923005C0867 /* DQPhotoCollectionController.m */; };
+		844F0A5F1DC8C923005C0867 /* DQPhotoLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 844F0A591DC8C923005C0867 /* DQPhotoLoader.m */; };
+		84665AAF1DC77070004241A2 /* UIButton+CustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 84665AAE1DC77070004241A2 /* UIButton+CustomButton.m */; };
+		84665AB21DC774FC004241A2 /* DQPhotoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84665AB11DC774FC004241A2 /* DQPhotoManager.m */; };
+		84665ABC1DC78C07004241A2 /* DQBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84665ABB1DC78C07004241A2 /* DQBaseNavigationController.m */; };
 		84A4EF591DC73FBA00969C9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A4EF581DC73FBA00969C9B /* main.m */; };
 		84A4EF621DC73FBA00969C9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A4EF601DC73FBA00969C9B /* Main.storyboard */; };
 		84A4EF641DC73FBA00969C9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84A4EF631DC73FBA00969C9B /* Assets.xcassets */; };
 		84A4EF671DC73FBA00969C9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A4EF651DC73FBA00969C9B /* LaunchScreen.storyboard */; };
 		84A4EF761DC7440200969C9B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A4EF751DC7440200969C9B /* AppDelegate.m */; };
+		84A4EF801DC74FFB00969C9B /* DQMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A4EF7F1DC74FFB00969C9B /* DQMainViewController.m */; };
 		A888F66BA61C784FDAC37F1C /* libPods-CherrysGift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 82931CADC22BCC41F553CB82 /* libPods-CherrysGift.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0F1B52D3F2EA46F54AAAAF8C /* Pods-CherrysGift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CherrysGift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CherrysGift/Pods-CherrysGift.debug.xcconfig"; sourceTree = "<group>"; };
 		82931CADC22BCC41F553CB82 /* libPods-CherrysGift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CherrysGift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		844F0A461DC8C90D005C0867 /* back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@2x.png"; sourceTree = "<group>"; };
+		844F0A471DC8C90D005C0867 /* back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@3x.png"; sourceTree = "<group>"; };
+		844F0A481DC8C90D005C0867 /* cameraroll-picker-grip@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cameraroll-picker-grip@2x.png"; sourceTree = "<group>"; };
+		844F0A491DC8C90D005C0867 /* cameraroll-picker-grip@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cameraroll-picker-grip@3x.png"; sourceTree = "<group>"; };
+		844F0A4E1DC8C923005C0867 /* DQImageScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQImageScrollView.h; sourceTree = "<group>"; };
+		844F0A4F1DC8C923005C0867 /* DQImageScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQImageScrollView.m; sourceTree = "<group>"; };
+		844F0A501DC8C923005C0867 /* DQPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQPhoto.h; sourceTree = "<group>"; };
+		844F0A511DC8C923005C0867 /* DQPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQPhoto.m; sourceTree = "<group>"; };
+		844F0A521DC8C923005C0867 /* DQPhotoAlbumList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQPhotoAlbumList.h; sourceTree = "<group>"; };
+		844F0A531DC8C923005C0867 /* DQPhotoAlbumList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQPhotoAlbumList.m; sourceTree = "<group>"; };
+		844F0A541DC8C923005C0867 /* DQPhotoCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQPhotoCollectionCell.h; sourceTree = "<group>"; };
+		844F0A551DC8C923005C0867 /* DQPhotoCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQPhotoCollectionCell.m; sourceTree = "<group>"; };
+		844F0A561DC8C923005C0867 /* DQPhotoCollectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQPhotoCollectionController.h; sourceTree = "<group>"; };
+		844F0A571DC8C923005C0867 /* DQPhotoCollectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQPhotoCollectionController.m; sourceTree = "<group>"; };
+		844F0A581DC8C923005C0867 /* DQPhotoLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQPhotoLoader.h; sourceTree = "<group>"; };
+		844F0A591DC8C923005C0867 /* DQPhotoLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQPhotoLoader.m; sourceTree = "<group>"; };
+		84665AAD1DC77070004241A2 /* UIButton+CustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+CustomButton.h"; sourceTree = "<group>"; };
+		84665AAE1DC77070004241A2 /* UIButton+CustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CustomButton.m"; sourceTree = "<group>"; };
+		84665AB01DC774FC004241A2 /* DQPhotoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQPhotoManager.h; sourceTree = "<group>"; };
+		84665AB11DC774FC004241A2 /* DQPhotoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQPhotoManager.m; sourceTree = "<group>"; };
+		84665ABA1DC78C07004241A2 /* DQBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQBaseNavigationController.h; sourceTree = "<group>"; };
+		84665ABB1DC78C07004241A2 /* DQBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQBaseNavigationController.m; sourceTree = "<group>"; };
 		84A4EF541DC73FBA00969C9B /* CherrysGift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CherrysGift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84A4EF581DC73FBA00969C9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84A4EF611DC73FBA00969C9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -26,6 +62,10 @@
 		84A4EF681DC73FBA00969C9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84A4EF741DC7440200969C9B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84A4EF751DC7440200969C9B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84A4EF7E1DC74FFB00969C9B /* DQMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQMainViewController.h; sourceTree = "<group>"; };
+		84A4EF7F1DC74FFB00969C9B /* DQMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQMainViewController.m; sourceTree = "<group>"; };
+		84A4EF811DC75FD300969C9B /* ConstntDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConstntDefine.h; sourceTree = "<group>"; };
+		84A4EF831DC762D500969C9B /* CherrysGiftHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CherrysGiftHeader.pch; sourceTree = "<group>"; };
 		F392B8D6E861657FFB7DF8E7 /* Pods-CherrysGift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CherrysGift.release.xcconfig"; path = "Pods/Target Support Files/Pods-CherrysGift/Pods-CherrysGift.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,6 +98,55 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		844F0A441DC8C8D7005C0867 /* DQPhotoPicker */ = {
+			isa = PBXGroup;
+			children = (
+				844F0A451DC8C8F3005C0867 /* Resource */,
+				844F0A4E1DC8C923005C0867 /* DQImageScrollView.h */,
+				844F0A4F1DC8C923005C0867 /* DQImageScrollView.m */,
+				844F0A501DC8C923005C0867 /* DQPhoto.h */,
+				844F0A511DC8C923005C0867 /* DQPhoto.m */,
+				844F0A521DC8C923005C0867 /* DQPhotoAlbumList.h */,
+				844F0A531DC8C923005C0867 /* DQPhotoAlbumList.m */,
+				844F0A541DC8C923005C0867 /* DQPhotoCollectionCell.h */,
+				844F0A551DC8C923005C0867 /* DQPhotoCollectionCell.m */,
+				844F0A561DC8C923005C0867 /* DQPhotoCollectionController.h */,
+				844F0A571DC8C923005C0867 /* DQPhotoCollectionController.m */,
+				844F0A581DC8C923005C0867 /* DQPhotoLoader.h */,
+				844F0A591DC8C923005C0867 /* DQPhotoLoader.m */,
+			);
+			path = DQPhotoPicker;
+			sourceTree = "<group>";
+		};
+		844F0A451DC8C8F3005C0867 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				844F0A461DC8C90D005C0867 /* back@2x.png */,
+				844F0A471DC8C90D005C0867 /* back@3x.png */,
+				844F0A481DC8C90D005C0867 /* cameraroll-picker-grip@2x.png */,
+				844F0A491DC8C90D005C0867 /* cameraroll-picker-grip@3x.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		84665AAC1DC77037004241A2 /* Categroies */ = {
+			isa = PBXGroup;
+			children = (
+				84665AAD1DC77070004241A2 /* UIButton+CustomButton.h */,
+				84665AAE1DC77070004241A2 /* UIButton+CustomButton.m */,
+			);
+			name = Categroies;
+			sourceTree = "<group>";
+		};
+		84665AB91DC78BDF004241A2 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				84665ABA1DC78C07004241A2 /* DQBaseNavigationController.h */,
+				84665ABB1DC78C07004241A2 /* DQBaseNavigationController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		84A4EF4B1DC73FBA00969C9B = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +168,7 @@
 		84A4EF561DC73FBA00969C9B /* CherrysGift */ = {
 			isa = PBXGroup;
 			children = (
+				84A4EF831DC762D500969C9B /* CherrysGiftHeader.pch */,
 				84A4EF6E1DC742EF00969C9B /* Classes */,
 				84A4EF601DC73FBA00969C9B /* Main.storyboard */,
 				84A4EF631DC73FBA00969C9B /* Assets.xcassets */,
@@ -100,10 +190,13 @@
 		84A4EF6E1DC742EF00969C9B /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				844F0A441DC8C8D7005C0867 /* DQPhotoPicker */,
+				84665AB91DC78BDF004241A2 /* Main */,
 				84A4EF701DC7432000969C9B /* Views */,
 				84A4EF711DC7432C00969C9B /* Controllers */,
 				84A4EF6F1DC7431A00969C9B /* Models */,
 				84A4EF721DC7433C00969C9B /* Others */,
+				84665AAC1DC77037004241A2 /* Categroies */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -125,6 +218,8 @@
 		84A4EF711DC7432C00969C9B /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				84A4EF7E1DC74FFB00969C9B /* DQMainViewController.h */,
+				84A4EF7F1DC74FFB00969C9B /* DQMainViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -132,8 +227,11 @@
 		84A4EF721DC7433C00969C9B /* Others */ = {
 			isa = PBXGroup;
 			children = (
+				84A4EF811DC75FD300969C9B /* ConstntDefine.h */,
 				84A4EF741DC7440200969C9B /* AppDelegate.h */,
 				84A4EF751DC7440200969C9B /* AppDelegate.m */,
+				84665AB01DC774FC004241A2 /* DQPhotoManager.h */,
+				84665AB11DC774FC004241A2 /* DQPhotoManager.m */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -201,7 +299,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				844F0A4B1DC8C90D005C0867 /* back@3x.png in Resources */,
+				844F0A4D1DC8C90D005C0867 /* cameraroll-picker-grip@3x.png in Resources */,
 				84A4EF671DC73FBA00969C9B /* LaunchScreen.storyboard in Resources */,
+				844F0A4C1DC8C90D005C0867 /* cameraroll-picker-grip@2x.png in Resources */,
+				844F0A4A1DC8C90D005C0867 /* back@2x.png in Resources */,
 				84A4EF641DC73FBA00969C9B /* Assets.xcassets in Resources */,
 				84A4EF621DC73FBA00969C9B /* Main.storyboard in Resources */,
 			);
@@ -263,7 +365,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				84A4EF761DC7440200969C9B /* AppDelegate.m in Sources */,
+				844F0A5C1DC8C923005C0867 /* DQPhotoAlbumList.m in Sources */,
+				84665AAF1DC77070004241A2 /* UIButton+CustomButton.m in Sources */,
+				84665ABC1DC78C07004241A2 /* DQBaseNavigationController.m in Sources */,
+				844F0A5B1DC8C923005C0867 /* DQPhoto.m in Sources */,
+				844F0A5A1DC8C923005C0867 /* DQImageScrollView.m in Sources */,
 				84A4EF591DC73FBA00969C9B /* main.m in Sources */,
+				844F0A5E1DC8C923005C0867 /* DQPhotoCollectionController.m in Sources */,
+				844F0A5F1DC8C923005C0867 /* DQPhotoLoader.m in Sources */,
+				844F0A5D1DC8C923005C0867 /* DQPhotoCollectionCell.m in Sources */,
+				84665AB21DC774FC004241A2 /* DQPhotoManager.m in Sources */,
+				84A4EF801DC74FFB00969C9B /* DQMainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,6 +495,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5LGER48KH8;
+				GCC_PREFIX_HEADER = CherrysGift/CherrysGiftHeader.pch;
 				INFOPLIST_FILE = CherrysGift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.DerrickQin.CherrysGift;
@@ -396,6 +509,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5LGER48KH8;
+				GCC_PREFIX_HEADER = CherrysGift/CherrysGiftHeader.pch;
 				INFOPLIST_FILE = CherrysGift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.DerrickQin.CherrysGift;

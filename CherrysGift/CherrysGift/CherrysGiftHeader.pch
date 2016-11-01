@@ -1,0 +1,25 @@
+//
+//  CherrysGiftHeader.pch
+//  CherrysGift
+//
+//  Created by admin on 2016/10/31.
+//  Copyright © 2016年 Derrick_Qin. All rights reserved.
+//
+
+#ifndef CherrysGiftHeader_pch
+#define CherrysGiftHeader_pch
+
+//基础源生框架
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+//通用变量定义
+#import "ConstntDefine.h"
+#import "UIButton+CustomButton.h"
+
+#define MAS_SHORTHAND
+#define MAS_SHORTHAND_GLOBALS
+
+//第三方框架
+#import <Masonry/Masonry.h>
+
+#endif /* CherrysGiftHeader_pch */

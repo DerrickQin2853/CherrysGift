@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "DQMainViewController.h"
+#import "DQBaseNavigationController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +18,19 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    
+    [self.window setBackgroundColor:[UIColor whiteColor]];
+    
+    DQMainViewController *mainVC = [DQMainViewController new];
+    
+    DQBaseNavigationController *naviVC = [[DQBaseNavigationController alloc]initWithRootViewController:mainVC];
+    
+    [self.window setRootViewController:naviVC];
+    
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
